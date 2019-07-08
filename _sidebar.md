@@ -25,8 +25,8 @@
   * [治水小常识](public/manages.md)
   * [河道水质](public/WaterQualityList.md)
 * 排行榜
-  * [巡河红榜](public/configuration.md)
-  * [巡河黑帮榜](public/themes.md)
+  * [巡河红榜](public/rankred.md)
+  * [巡河黑帮榜](public/rankblack.md)
 * 其它
   * [前端代码规范](public/web.md)
   
