@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+  .markdown-section{width: 96%;max-width:96%;}
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      // 默认加载的文件为 _navbar.md
+      loadNavbar: true,
+      // 加载 _sidebar.md
+      loadSidebar: true,
+      // 加载 summary.md
+      loadSidebar: 'summary.md',
+      //切换页面后是否自动跳转到页面顶部。
+      auto2top: true,
+      //文档加载的根路径，可以是二级路径或者是其他域名的路径。
+      //basePath: '/path/',
+      //首页文件加载路径
+      homepage:'home.md', 
+      name: '云平台接口文档',
+      loadSidebar: true,
+      //同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题
+      autoHeader: true,
+      externalLinkTarget: '_self'
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
