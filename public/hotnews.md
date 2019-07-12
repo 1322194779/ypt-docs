@@ -1,33 +1,35 @@
 ##### 接口地址
 
-`newManageAction!eachJsonQueryOne.action?newManage.newType=1&newManage.top=1&page=1&rows=1`
+`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newType=1&newManage.top=1&page=1&rows=1`
 
 ```
 {
+    "total": 1,
     "result": "success",
     "rows": [{
         "newStatus": "审批通过",
-        "createTime": "2018-07-19 09:24:11 ",
+        "createTime": "2019-07-10 09:47:07 ",
         "publishObject": "公共新闻",
-        "institutionId": 287,
-        "updateTime": "2018-07-24 13:51:00 ",
+        "institutionId": 3,
+        "updateTime": "",
         "department": "",
         "newType": "新闻动态",
         "code": "",
-        "newManageId": 321,
-        "createTimeNew": 1531963451000,
+        "createTimeNew": 1562723227000,
+        "newManageId": 9761,
+        "checker": "杭州市河长办",
         "author": "",
-        "title": "滨江举办滨江河道油画DIY活动",
-        "source": "网络转载",
-        "times": 10,
-        "createTimeDay": "2018-07-19",
-        "applicant": "九问采编",
-        "imageFile": "newManageImage_321.jpeg",
+        "title": "一二三四五六七八九十十一十二十三十四十五十六",
+        "source": "原创",
+        "times": 16,
+        "createTimeDay": "2019-07-10",
+        "applicant": "杭州市河长办",
+        "imageFile": "newManageImage_9761.jpg",
         "is_recommend": "不推荐",
         "appendix": "",
-        "approveTime": "",
+        "approveTime": "2019-07-10 09:47:16 ",
         "top": "置顶",
-        "institution": "经济开发区"
+        "institution": "杭州市"
     }]
 }
 ```
