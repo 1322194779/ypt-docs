@@ -237,8 +237,7 @@
    <router-link tag="div" :to="{path:'ReachList',query:{'nav':'2'}}"   class="t-right f-fr river-more"> <a>更多</a> </router-link>
 ```
 ##### 河道风采列表接口地址  
-`reachAction!eachJsonQueryAllList.action?page=1&rows=6&reach.waterQuality=2`
-
+`publicResourceAction!commonJsonQueryReachRiverHeadList.action?reachRiverHead.reach.reachCode=&reachRiverHead.reach.reachName=&reachRiverHead.employee.name=&institutionId=&page=1&rows=5`
 ###### 请求方式  `get`
 
 ##### 数据格式   `json`

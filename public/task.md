@@ -1,6 +1,6 @@
 ##### 投诉接口
 
-`taskAction!commonEachJsonSatisfactionPublic.action?page=1&rows=8&o=1`
+`publicResourceAction!commonJsonQueryPublicTaskList.action?page=1&rows=8&o=1`
 
 ###### 请求方式  `get`
 

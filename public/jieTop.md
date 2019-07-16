@@ -1,6 +1,5 @@
 ##### 截污纳管接口地址 
-`newManageAction!eachJsonQueryTopList.action?newManage.newStatus=1&newManage.newType=5`
-
+`publicResourceAction!eachJsonQueryTopList.action?newManage.newStatus=1&newManage.newType=5`
 ###### 请求方式 `get`
 
 ##### 数据格式  `json`

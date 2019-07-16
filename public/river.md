@@ -1,5 +1,5 @@
 ##### 治水成果接口地址 
-`newManageAction!eachJsonPictureQueryList.action?newManage.newStatus=1&newManage.newType=4&newManage.top=1&newManage.publishObject=1&rows=4&page=1`
+`publicResourceAction!eachJsonQueryAllNewManageList.action?page=1&rows=2&newManage.newType=4`
 
 ###### 请求方式 `get`
 

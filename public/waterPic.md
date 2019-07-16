@@ -45,7 +45,7 @@
  
 
 ##### 水域数据热门投诉接口地址 
-`taskAction!commonJsonQueryPublicTaskList.action?page=1&rows=15`
+`publicResourceAction!commonJsonQueryPublicTaskList.action?page=1&rows=15`
 
 ###### 请求方式 `get`
 
@@ -167,7 +167,7 @@
  <router-link tag="div" :to="{path:'tasklist',query:{'nav':'2'}}" class="t-right f-fr more"> <a>更多</a> </router-link>
 ```
 ##### 水域数据热门投诉列表接口地址  
-`taskAction!eachJsonQueryPublicList.action?page=1&rows=10&task.taskStatus=3&task.issueType=1&task.isdelete=0&totalType=1`
+`publicResourceAction!eachJsonQueryPublicTaskList.action?task.taskStatus=3&task.issueType=1&task.isdelete=0&page=1&rows=3&totalType=1`
 
 ###### 请求方式  `get`
 

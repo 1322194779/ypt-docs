@@ -1,5 +1,5 @@
 ##### 水环境调度接口地址 
-`newManageAction!eachJsonQueryTopList.action?newManage.newStatus=1&newManage.newType=8`
+`publicResourceAction!eachJsonQueryTopList.action?newManage.newStatus=1&newManage.newType=6`
 
 ###### 请求方式 `get`
 

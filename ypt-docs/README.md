@@ -7,5 +7,8 @@
 
 ### 运行
 npm i docsify-cli -g
-docsify init ./docs
-docsify serve docs
+
+docsify init ./ypt-docs
+docsify serve ypt-docs
+
+

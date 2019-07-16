@@ -1,5 +1,5 @@
 ##### 湖泊/水库信息接口地址 
-`lakeAction!eachJsonQueryAllList.action?page=1&rows=5&lake.institution.institutionId=3`
+`publicResourceAction!eachJsonQueryLakeList.action?page=1&rows=5&lake.institution.institutionId=3`
 
 ###### 请求方式 `get`
 
