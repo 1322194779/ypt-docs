@@ -1,6 +1,6 @@
 ##### 接口地址
 
-`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newType=1&newManage.top=1&page=1&rows=1`
+`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newType=2&newManage.top=1&page=1&rows=1`
 
 ```
 {
