@@ -1,5 +1,5 @@
 ##### 河道风采接口地址 
-`publicResourceAction!eachJsonQueryNiceList.action?page=1&rows=6`
+`publicResourceAction!eachJsonQueryReachList.action?page=1&rows=6&reach.waterQuality=2`
 
 ###### 请求方式 `get`
 
