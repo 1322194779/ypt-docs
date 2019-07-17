@@ -167,7 +167,7 @@
  <router-link tag="div" :to="{path:'tasklist',query:{'nav':'2'}}" class="t-right f-fr more"> <a>更多</a> </router-link>
 ```
 ##### 水域数据热门投诉列表接口地址  
-`publicResourceAction!eachJsonQueryPublicTaskList.action?task.taskStatus=3&task.issueType=1&task.isdelete=0&page=1&rows=3&totalType=1`
+`publicResourceAction!eachJsonQueryTaskStatusPublicList.action?page="+v+"&rows="+this.page.pageSize+"&task.taskStatus=3&task.issueType=1`
 
 ###### 请求方式  `get`
 
