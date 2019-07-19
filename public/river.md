@@ -1,5 +1,6 @@
 ##### 治水成果接口地址 
-`publicResourceAction!eachJsonQueryAllNewManageList.action?page=1&rows=2&newManage.newType=4`
+`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newStatus=1&newManage.newType=4&newManage.top=1&newManage.publishObject=1&rows=2&page=1
+`
 
 ###### 请求方式 `get`
 
@@ -54,7 +55,7 @@
  `
 
 ##### 治水成果详情接口地址  
-`publicResourceAction!eachJsonQueryAllNewManageList.action?page=1&rows=15&newManage.newType=4`
+`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newStatus=1&newManage.newType=4&newManage.top=1&newManage.publishObject=1&rows=2&page=1`
 
 ###### 请求方式  `get`
 
@@ -93,8 +94,8 @@
 ```
  <router-link :to="{path:'/list',query:{ 'types':' 治水成果', 'newType': 4 }}" class="p-more f-fr">更多</router-link>
 ```
-##### 清淤·疏浚列表接口地址  
-`publicResourceAction!eachJsonQueryAllNewManageList.action?page=1&rows=15&newManage.newType=4`
+##### 治水成果列表接口地址  
+`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newStatus=1&newManage.newType=4&newManage.top=1&newManage.publishObject=1&rows=2&page=1`
 
 ###### 请求方式  `get`
 
