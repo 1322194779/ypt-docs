@@ -1,36 +1,26 @@
 ##### 接口地址
 
-`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newType=2&newManage.top=1&page=1&rows=1`
+`publicResourceAction!eachJsonNewManagePictureQueryList.action?newManage.newType=1&newManage.top=1&page=1&rows=1`
 
 ```
 {
-    "total": 1,
     "result": "success",
-    "rows": [{
-        "newStatus": "审批通过",
-        "createTime": "2019-07-10 09:47:07 ",
-        "publishObject": "公共新闻",
-        "institutionId": 3,
-        "updateTime": "",
-        "department": "",
-        "newType": "新闻动态",
-        "code": "",
-        "createTimeNew": 1562723227000,
-        "newManageId": 9761,
-        "checker": "杭州市河长办",
-        "author": "",
-        "title": "一二三四五六七八九十十一十二十三十四十五十六",
-        "source": "原创",
-        "times": 16,
-        "createTimeDay": "2019-07-10",
-        "applicant": "杭州市河长办",
-        "imageFile": "newManageImage_9761.jpg",
-        "is_recommend": "不推荐",
-        "appendix": "",
-        "approveTime": "2019-07-10 09:47:16 ",
-        "top": "置顶",
-        "institution": "杭州市"
-    }]
+    "rows": [
+        {
+            "newStatus": "审批通过",
+            "createTime": "2019-07-19 10:56:14 ",
+            "author": "",
+            "title": "萧禹民间河长护水总队会议顺利召开",
+            "source": "原创",
+            "createTimeDay": "2019-07-19",
+            "applicant": "杭州市河长办",
+            "imageFile": "newManageImage_1438.jpg",
+            "newType": "新闻动态",
+            "createTimeNew": 1563465600000,
+            "newManageId": 1438,
+            "institution": "杭州市"
+        }
+    ]
 }
 ```
 
@@ -51,41 +41,46 @@
 
 ###### 首页->热点资讯->2个列表接口地址
 
-`publicResourceAction!eachJsonQueryAllNewManageList.action?newManage.newType=1&rows=2&page=1`
+`publicResourceAction!eachJsonQueryAllNewManageList.action?newManage.newType=1&rows=2&page=1&newManage.newStatus=1`
 
 ```
 {
-    "total": 212,
+    "total": 366,
     "result": "success",
-    "rows": [{
-        "title": "民间护水达人 让萧山河道变得更美",
-        "source": "原创",
-        "createTimeDay": "2018-09-27",
-        "applicant": "九问采编",
-        "imageFile": "",
-        "newType": "新闻动态",
-        "createTimeNew": 1538036892000,
-        "newManageId": 537,
-        "introduction": "近日，杭州市寻找“民间护水达人”活动正式启动，寻找为“五水共治”工作贡献自身力量的护水人，而这样的民间护水达人，萧山就有不少。",
-        "institution": "萧山区"
-    }, {
-        "title": "海宁：大力实施高效节水 促进强农惠农富农",
-        "source": "网络转载",
-        "createTimeDay": "2018-09-26",
-        "applicant": "九问采编",
-        "imageFile": "",
-        "newType": "新闻动态",
-        "createTimeNew": 1537925437000,
-        "newManageId": 521,
-        "introduction": "“水利是农业生产发展、农村生态宜居、农民生活富裕的基本条件和重要支撑。”近年来，海宁市围绕“乡村振兴”“美丽乡村”“全域旅游”和“大花园”建设，通过推广农业水价综合改革、推进小型农田水利设施提质和开展高效节水灌溉设施等一系列举措，切实改善了农村环境、提高粮食综合生产能力。",
-        "institution": "萧山区"
-    }]
+    "rows": [
+        {
+            "createTime": "2019-07-22 14:28:31 ",
+            "title": "情系企业优服务 环保审批“加速跑”",
+            "source": "原创",
+            "createTimeDay": "2019-07-22",
+            "applicant": "开发区河长办",
+            "imageFile": "",
+            "newType": "新闻动态",
+            "createTimeNew": 1563724800000,
+            "newManageId": 1443,
+            "introduction": "情系企业优服务 环保审批“加速跑”",
+            "institution": "开发区"
+        },
+        {
+            "createTime": "2019-07-22 08:56:04 ",
+            "title": "杭州市治水办督查组来萧进行半年度评估检查",
+            "source": "网络转载",
+            "createTimeDay": "2019-07-22",
+            "applicant": "九问采编",
+            "imageFile": "",
+            "newType": "新闻动态",
+            "createTimeNew": 1563724800000,
+            "newManageId": 1440,
+            "introduction": "7月18日，市治水办考核督查一组周冰副组长一行对萧山区“五水共治”（河长制）工作开展半年度评估检查。区治水办负责人及住建局、农业农村局、城管局、生态环境萧山分局、环境集团等单位相关负责人参加评估座谈。\r\n\r\n",
+            "institution": "萧山区"
+        }
+    ]
 }
 ```
 
 ###### 热点资讯列表页接口地址
 
-`publicResourceAction!eachJsonQueryAllNewManageList.action?page=1&rows=15&newManage.newType=1`
+`publicResourceAction!eachJsonQueryAllNewManageList.action?newManage.newStatus=1&page=1&rows=15&newManage.newType=1`
 
 ```
 {
